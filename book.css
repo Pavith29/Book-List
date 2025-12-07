@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather',sans-serif;
+}
+.navbar{
+    background-color: pink;
+    color: blue;
+    height: 50px;
+    padding: 15px;
+}
+.container{
+    padding: 20px;
+}
+.book-container{
+    padding: 10px;
+    width: 30%;
+    line-height: 30px;
+    z-index: 3;
+    color: whitesmoke;
+    background-color:rgb(222, 82, 156);
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h3{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.book-container h6{
+    color:rgb(133, 12, 12);
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 50%;
+}
+.book-container button{
+    background-color:rgb(31, 205, 205);
+    color: black;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin:20px 10px 0px 250px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.add-pop{
+    background-color: rgb(212, 119, 212);
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 900;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+}
+.pop-overlay{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.pop-box{
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    left: 30%;
+    top: 20%;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+.pop-box h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(121, 11, 223);
+}
+.pop-box input{
+    background: whitesmoke;
+    color: gray;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 10px;
+    width: 70%;
+    padding: 8px;
+    font-size: 20px;
+}
+.pop-box textarea{
+    background: whitesmoke;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 10px;
+    width: 70%;
+    padding: 8px;
+    font-size: 20px;
+}
+.pop-box input::placeholder{
+    color: darksalmon;
+}
+.pop-box textarea::placeholder{
+    color: darksalmon;
+}
+.pop-box button{
+    background-color: rgb(68, 112, 124);
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+.pop-box input:focus{
+    outline: none;
+}
+.pop-box textarea:focus{
+    outline: none;
+}
